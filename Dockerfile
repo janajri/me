@@ -1,4 +1,4 @@
-FROM nginx
-ADD nginx/conf.d /etc/nginx/conf.d
-ADD nginx/nginx.conf /etc/nginx/nginx.conf
-COPY public/ /www/home
+FROM node:alpine
+RUN npm install hexo-cli -g
+EXPOSE 4000
+CMD hexo server
