@@ -123,6 +123,7 @@ author:
     twitter: janajri
     # Your google plus profile id. E.g : `+Tranquilpeak` or `123812884128439`
     google_plus:
+    bio: hello
 
 
 # Customization
@@ -181,3 +182,7 @@ swiftype_install_key:
 fb_admin_ids:
 # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
 fb_app_id:
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20

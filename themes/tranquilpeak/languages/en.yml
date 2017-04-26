@@ -56,6 +56,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: ""
+    bio: "A software engineer with 5 years experience building realtime, globally distributed backend infrastructure. Familiarity with a number of technologies: Elixir, Golang, Nodejs, React, Cassandra, MySQL, Redis, RabbitMQ"
     # Your job
-    job: ""
+    job: "Software engineer"
